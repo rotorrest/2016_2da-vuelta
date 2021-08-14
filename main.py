@@ -14,8 +14,8 @@ from core import web
 
 #headless
 options = uc.ChromeOptions()
-options.headless=True
-options.add_argument('--headless')
+#options.headless=True
+#options.add_argument('--headless')
 driver = uc.Chrome(options=options)
 
 #head
